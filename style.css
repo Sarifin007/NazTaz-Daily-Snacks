@@ -27,7 +27,7 @@ section {
 }
 
 .half-width img {
-    width: 60%;
+    width: 50%;
     border-left: 10px solid;
 
 }
@@ -46,5 +46,5 @@ h4 {
 }
 
 .Naz {
-    color: darkcyan;
+    color: rgb(10, 29, 29);
 }
