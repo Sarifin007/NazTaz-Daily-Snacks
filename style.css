@@ -1,12 +1,34 @@
-body{
+body {
     font-family: 'Libre Baskerville', serif;
+    margin: 0%;
 }
-h1{
-    color: aquamarine;
+
+.header {
+    color: aqua;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
 }
-p{
-    background-color: blueviolet;
-    color: coral;
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 10px 40px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.order {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 10%;
+    color: white;
+    font-weight: 700;
 }
