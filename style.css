@@ -12,7 +12,7 @@ body {
     color: aqua;
     text-align: center;
     font-size: 30px;
-    background-image: url(image/top-banner.png);
+    background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;
 }
 
@@ -22,11 +22,14 @@ section {
 
 .half-width {
     width: 50%;
-    padding: 10px 40px;
+    margin: 10px 40px;
+    padding: 40px;
 }
 
 .half-width img {
-    width: 100%;
+    width: 60%;
+    border-left: 10px solid;
+
 }
 
 .order {
@@ -36,4 +39,12 @@ section {
     border-radius: 10%;
     color: white;
     font-weight: 700;
+}
+
+h4 {
+    color: darkred;
+}
+
+.Naz {
+    color: darkcyan;
 }
