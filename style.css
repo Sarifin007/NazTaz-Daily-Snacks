@@ -48,3 +48,27 @@ h4 {
 .Naz {
     color: rgb(10, 29, 29);
 }
+
+.foot {
+    display: flex;
+    height: 200px;
+    width: 700px;
+    border: 2px solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+#footimg {
+    height: 20px;
+    width: 20px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.Footerhead {
+    text-align: center;
+    margin: 20px;
+    color: darkblue;
+}
